@@ -69,7 +69,7 @@ class TestComponent extends Component {
         <h3>The answer is {data}</h3>
         <Button onClick={incrementCounter} color="green" content="Increment" />
         <Button onClick={decrementCounter} color="red" content="Decrement" />
-        <Button onClick={() => openModal('Test Modal', {data: 43})} color="teal" content="Open Modal" />
+        <Button onClick={() => openModal('TestModal', {data: 43})} color="teal" content="Open Modal" />
         <br />
         <br />
         <form onSubmit={this.handleFormSubmit}>
